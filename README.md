@@ -1,6 +1,6 @@
 # Password-Manager
-```
-Password Manager (GUI - CustomTkinter)
+~~~ 
+## Password Manager (GUI - CustomTkinter)
 Applicazione desktop per la gestione sicura delle password, sviluppata in Python con interfaccia grafica basata su CustomTkinter.
 
 L'app consente di:
@@ -157,4 +157,4 @@ Possibili miglioramenti
     •	Multi-account
     •	2FA (autenticazione a due fattori)
     •	UI/UX enhancements
-```
+~~~ 
