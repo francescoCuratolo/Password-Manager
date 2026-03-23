@@ -92,6 +92,8 @@ L'app è suddivisa in 3 macro moduli principali:
 - GUI per login/master password
 - Interazione con LoginFunctions
 
+![window_login](assets/window_login.PNG)
+
 #### Logica:
 
 - Input utente → LoginFunctions.verify
@@ -109,6 +111,8 @@ L'app è suddivisa in 3 macro moduli principali:
   - Eliminazione
   - Generazione password
 
+![MainApp](assets/MainApp.PNG)
+
 ## Moduli secondari
 
 - cryptography.py
@@ -118,6 +122,9 @@ L'app è suddivisa in 3 macro moduli principali:
 - autocomplete.py
   - Classe Autocomplete
   - Suggerimenti dinamici durante la digitazione
+
+  ![Autocomplete](assets/Autocomplete.PNG)
+
 - Altri moduli:
   - Utility
   - Validazione input
