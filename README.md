@@ -127,20 +127,21 @@ L'app è suddivisa in 3 macro moduli principali:
 
 Il file data.json viene creato automaticamente nella stessa directory di main.py.
 Esempio struttura:
+~~~ 
 {
   "master": {
-“salt”: "<encrypted>",
-“hash”: "<encrypted>"
-},
+        “salt”: "<encrypted>",
+        “hash”: "<encrypted>"
+    },
   "entries": {
     	"example.com": {
-      		"email": "<encrypted_password>",
+      		"email": "prova@email.it",
       		"password": "<encrypted_password>",
       		"nonce": "<encrypted_nonce>"
     	}
-  }
+    }
 }
-
+~~~ 
 ## Avvio dell'applicazione
 
 Requisiti
@@ -168,6 +169,7 @@ L'app include:
   - Aggiunta
   - Ricerca
   - Eliminazione
+ 
 (esperienza user friendly)
 
 ## Note importanti
